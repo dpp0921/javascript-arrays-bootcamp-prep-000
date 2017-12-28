@@ -23,3 +23,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift();
   array;
 }
+function removeElementFromBeginningOfArray(array){
+  array.slice(1);
+  array;
+}
